@@ -1,0 +1,30 @@
+{
+  "name": "find-entry",
+  "version": "0.0.0",
+  "description": "Find an Entry File",
+  "main": "find-entry.js",
+  "scripts": {
+    "format": "npx prettier --arrow-parens=avoid --print-width=300 --write *.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/find-entry.git"
+  },
+  "keywords": [
+    "entry",
+    "library",
+    "node",
+    "package",
+    "webpack"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/find-entry/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/find-entry#readme",
+  "devDependencies": {
+    "flug": "^2.3.1"
+  }
+}
