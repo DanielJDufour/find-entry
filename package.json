@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Find an Entry File",
   "main": "find-entry.js",
+  "files": [
+    "find-entry.js"
+  ],
   "scripts": {
     "format": "npx prettier --arrow-parens=avoid --print-width=300 --write *.js",
     "test": "node test.js"
